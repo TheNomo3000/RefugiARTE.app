@@ -1,0 +1,95 @@
+html, body{
+    height: 100%;
+    width: 100%;
+    background-image: url("../Recursos/imagenes/background.png") ;
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    background-color: #464646;
+}
+.mv-dayname{
+    background-color: black!important;
+}
+main{
+    height: 93%;
+    padding-left: 300px;
+}
+
+nav{
+    background:rgba(202,202,202,0.5);
+}
+
+.collection .collection-item{
+    background:rgba(202,202,202,0.8);
+
+}
+
+#logo{
+    padding-left: 300px;
+}
+
+#imgLogo{
+    width:15%;
+    max-width: 210px;
+    min-width: 170px;
+}
+
+.txt-rotate{
+    color: #660A0A;
+}
+.divider{
+    background-color:#bc2626;
+}
+#slide-out{
+    background-color:#660A0A!important;
+}
+
+#slide-out li a, #banner_mobile a i{
+    color:#BF7C5A;
+}
+
+#slide-out li i{
+    color:#bc2626;
+}
+
+#banner_mobile{
+    width:100%;
+    box-shadow: 0 0 1px 0 darkgrey;
+    display: none;
+}
+
+#banner_mobile a i{
+    top: 4px;
+    left:3%;
+    position: relative;
+}
+
+#map {
+    height: 100%; /* optionally add !important for WP version */
+    width: auto;
+}
+.container{
+    width: 85%;
+}
+.collapsible .collapsible-body{
+    background-color:#700b0b!important;
+}
+.collapsible .collapsible-header{
+    padding-left: 32px!important;
+}
+/*MEDIAS QUERYS*/
+@media (min-width: 992px){
+    #banner_mobile{
+        display: none;
+    }
+}
+
+@media (max-width: 992px){
+    #banner_mobile{
+        display: block;
+    }
+    main, #logo{
+        padding:inherit;
+    }
+}
